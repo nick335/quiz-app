@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Karla:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F5F7FB;
+}
+
+.top-border-circle{
+  width: 297px;
+  height: 235px;
+  background: #FFFAD1;
+  position: fixed;
+  top: -60px;
+  right: -170px;
+  border-radius: 75% 25% 24% 76% / 5% 100% 0% 95%  ;
+  z-index: -100000;
+}
+
+.bottom-border-circle{
+  width: 297px;
+  height: 235px;
+  background-color: #DEEBF8;
+  position: fixed;
+  bottom: -100px;
+  left: -90px;
+  border-top-right-radius: 120px;
+  z-index: -100000;
+}
+
+.home-content{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 31.25px;
+  color: #293264;
+  line-height: 37px;
+}
+.para{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #293264;
+  line-height: 19px;
+  margin-top: 8px;
+}
+.btn{
+  border: none;
+  margin-top: 30px;
+  background: #4D5B9E;
+  color: #F5F7FB;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 19px;
+  padding: 16px 48px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 0.9;
+}
+
+.quiz-div{
+  margin-top: 40px;
+  margin-left: 75px;
+  margin-right: 15px;
+  border-bottom: 1px solid #DBDEF0;
+  z-index: 1000000;
+}
+.question{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #293264;
+}
+.answers-div{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+.answer{
+  cursor: pointer;
+  margin-right: 13px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: #293264;
+  border: 0.8px solid #4D5B9E;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-bottom: 2px;
+}
+.selected{
+  border: none;
+  background-color: #D6DBF5;
+  padding: 5px 12px;
+}
