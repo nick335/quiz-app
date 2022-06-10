@@ -107,5 +107,46 @@ body{
 .selected{
   border: none;
   background-color: #D6DBF5;
-  padding: 5px 12px;
+  padding: 7px 13px;
+}
+.correct{
+  border: none;
+  background-color: #94D7A2;
+  color: #293264;
+}
+.incorrect{
+  border: none;
+  background-color: #F8BCBC;
+  color: #293264;
+  opacity: 0.5;
+}
+.others{
+  opacity: 0.4;
+}
+.btn-div{
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-check{
+  border:none;
+  padding: 12px 22px;
+  background: #4D5B9E;
+  color: #F5F7FB;
+  font-size: 11px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 12px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.scores-info{
+  font-family: 'Inter', sans-serif;
+  font-size: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #293264;
+  margin-right: 7px;
 }
